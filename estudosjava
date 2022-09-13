@@ -1,0 +1,35 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+import java.util.Scanner;
+
+public class Main
+{
+  
+	public static void main(String[] args) {
+	
+	System.out.println("Digite sua Nota");
+	Scanner scan = new Scanner(System.in);
+	float nota = scan.nextFloat();
+	
+	if (nota >= 8.5 && nota <= 10){System.out.println("Sua Média é A");}
+
+    else if (nota < 8.5 && nota >= 7){System.out.println("Sua Média é B");}
+    
+    else if (nota < 7 && nota >= 4.5){System.out.println("Sua Média é C");}
+    
+    else if (nota < 4.5 && nota >= 3){System.out.println("Sua Média é D");}
+    
+    else if (nota < 3 && nota >= 1.5){System.out.println("Sua Média é E");}
+    
+    else if (nota < 1.5 && nota >= 0){System.out.println("Sua Média é F");}
+    
+	else {System.out.println("NOTA INVALIDA");}
+
+}
+}
