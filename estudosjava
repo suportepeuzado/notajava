@@ -352,6 +352,14 @@ public class Main
 
 
 
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
 import java.util.Scanner;
 
 public class Main
@@ -369,7 +377,7 @@ public class Main
 	
     float imc = peso/(alt*alt);
 	
-	if(imc > 40.0) {System.out.println("OBESIDADE GRAVE");}
+	if(imc >= 40.0) {System.out.println("OBESIDADE GRAVE");}
 	
 	else if(imc >= 30 && imc <= 39.9) {System.out.println("OBESIDADE");}
 	
@@ -377,9 +385,11 @@ public class Main
 	
 	else if(imc >= 18.5 && imc <= 24.9) {System.out.println("NORMAL");}
 	
-	else{System.out.println("MAGREZA");
+	else if(imc < 18.4 ) {System.out.println("MAGREZA");}
+	
+	else {System.out.println("erro");}
 	}
 }
-}
 
-----------------------------------------------------------------------------------------
+
+	
