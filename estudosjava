@@ -115,3 +115,271 @@ public class Main
 }
 	
 	
+	
+	
+	
+	public class Main
+{
+
+	public static void main(String[] args) {
+	     int a,b,z,y,x,w,v,u,t;
+	     a=5;
+	     b=10;
+	     z=a+b;
+	     y=b-a;
+	     x=b*a;
+	     w=b/a;
+	     v=b%a;
+	     u=++a;
+	     t=--b;
+	     System.out.println("Adicao = "+z);
+	     System.out.println("Subtracao = "+y);
+	     System.out.println("Multiplicacao = "+x);
+	     System.out.println("Divisao = "+w);
+	     System.out.println("Resto da divisao inteira= "+v);
+	      System.out.println("++ = "+u);
+	      System.out.println("-- = "+t);
+	}
+}
+/////---------------------------------------------------//
+
+
+
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+import java.util.Scanner;
+
+public class Main
+{
+  
+	public static void main(String[] args) {
+	
+	System.out.println("De um valor a A");
+	Scanner scan = new Scanner(System.in);
+	int a = scan.nextInt();
+	
+	System.out.println("De um valor a B");
+    int b = scan.nextInt();
+    
+    System.out.println("De um valor a C");
+    int c = scan.nextInt();
+    
+   if (a > b && a > c) {
+       System.out.println("O maior valor é A = " +a );
+    }
+    
+    else if (b > a && b > c) {
+        System.out.println("O maior valor é B = " +b);
+    }
+        
+    else if (c > a && c > b) {
+        System.out.println("O maior valor é C = " +c);
+    }
+    
+    else {
+     System.out.println("Todos valores são iguais ou existe inconsistência");   
+    }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+import java.util.Scanner;
+
+public class Main
+{
+  
+	public static void main(String[] args) {
+	
+	System.out.println("Digite um número");
+	Scanner scan = new Scanner(System.in);
+	int num = scan.nextInt();
+	
+	if (num % 2 == 0){
+	    System.out.println("O número " + num + " é par");
+	} 
+	
+	else { 
+	    System.out.println("O número " + num + " é impar");
+	    
+	}
+
+
+	}
+}
+
+
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+import java.util.Scanner;
+
+public class Main
+{
+  
+	public static void main(String[] args) {
+	
+	System.out.println("Digite sua Nota");
+	Scanner scan = new Scanner(System.in);
+	float nota = scan.nextFloat();
+	
+	if (nota >= 8.5 && nota <= 10){System.out.println("Sua Média é A");}
+
+    else if (nota < 8.5 && nota >= 7){System.out.println("Sua Média é B");}
+    
+    else if (nota < 7 && nota >= 4.5){System.out.println("Sua Média é C");}
+    
+    else if (nota < 4.5 && nota >= 3){System.out.println("Sua Média é D");}
+    
+    else if (nota < 3 && nota >= 1.5){System.out.println("Sua Média é E");}
+    
+    else if (nota < 1.5 && nota >= 0){System.out.println("Sua Média é F");}
+    
+	else {System.out.println("NOTA INVALIDA");}
+
+}
+}
+
+
+\---------------------------------------------------------------------------------------------------\
+
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+import java.util.Scanner;
+
+public class Main
+{
+  
+	public static void main(String[] args) {
+	
+	System.out.println("Digite o tamanho do primeiro lado");
+	Scanner scan = new Scanner(System.in);
+	int n1 = scan.nextInt();
+	
+	System.out.println("Digite o tamanho do segundo lado");
+	
+	int n2 = scan.nextInt();
+	
+	System.out.println("Digite o tamanho do terceiro lado");
+
+	int n3 = scan.nextInt();
+	
+	if (n1 == n2 && n1 == n3) {System.out.println("Seu triangulo é Equilátero");}
+	
+	else if(n1 != n2 && n1 != n3 || n2 != n1 && n2 != n3 || n3 != n1 && n3 != n2){System.out.println("Seu triangulo é Escaleno");}
+	
+    else if(n1 == n2 && n1 != n3 || n1 == n3 && n1 != n2 || n2 == n1 && n2 != n3 || n2 == n3 && n2 != n1 || n3 == n1 && n3 != n2 || n3 == n2 && n3 != n1)
+    {System.out.println("Seu triangulo é isósceles");}
+    
+    else {System.out.println("ERROR");};
+	    
+	    
+	}
+    
+}
+	
+	
+	
+****************************************************************************************************************************************************************************************
+
+
+
+import java.util.Scanner;
+
+public class Main
+{
+  
+	public static void main(String[] args) {
+	    System.out.println("Digite um número maior que 0 e menor que 100");
+	    Scanner scan = new Scanner(System.in);
+	    int num = scan.nextInt();
+	
+	    while(num < 0 || num > 100){
+	        System.out.println("Número invalido");
+	        System.out.println("Digite o valor: ");
+	        num = scan.nextInt();
+	    }
+	    
+	        while( num < 100){
+	            num++;
+	            if(num%2!=0)
+	        System.out.println("numero impar = "+num);
+	    }
+            
+        }
+}
+
+--------------------------------------------------------------------------
+
+
+
+
+
+
+
+import java.util.Scanner;
+
+public class Main
+{
+  
+	public static void main(String[] args) {
+	
+	Scanner scan= new Scanner(System.in);
+	
+	System.out.println("Digite seu Peso");
+	float peso = scan.nextFloat();
+	
+	System.out.println("Digite sua altura");
+	float alt = scan.nextFloat();
+	
+    float imc = peso/(alt*alt);
+	
+	if(imc > 40.0) {System.out.println("OBESIDADE GRAVE");}
+	
+	else if(imc >= 30 && imc <= 39.9) {System.out.println("OBESIDADE");}
+	
+	else if(imc >= 25.0 && imc <= 29.9) {System.out.println("SOBREPESO");}
+	
+	else if(imc >= 18.5 && imc <= 24.9) {System.out.println("NORMAL");}
+	
+	else{System.out.println("MAGREZA");
+	}
+}
+}
+
+----------------------------------------------------------------------------------------
